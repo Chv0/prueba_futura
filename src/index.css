@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.contenedor{
+  max-width: 80%;
+  height: 100 vh;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-color: beige;
+}
+
+.episodio{
+  padding: 2rem 0;
+  background-color: beige;
+  max-width: 100%;
+  height: 100 vh;
+  text-align: center;
+}
+
+
+table {
+  width: 100%;
+  background-color: aqua;
+  border: 1px solid #000;
+}
+
+td, th{
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-spacing: 0;
+}
